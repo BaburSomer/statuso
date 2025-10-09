@@ -1,0 +1,27 @@
+import:
+  base-dir: C:/Users/w10/rawData
+  processed-dir: processed
+  error-dir: error
+  
+  factories:
+    - type: excel
+      patterns:
+        - provider: isbank
+          pattern: ".*HesapOzeti.*\\.xlsx?$"
+          importer: ExcelIsbankImporter
+        - provider: denizbank
+          pattern: ".*Hareketleri.*\\.xlsx?$"
+          importer: ExcelDenizbankImporter
+        - provider: generic
+          pattern: ".*\\.xlsx?$"
+          importer: GenericExcelImporter
+
+    - type: pdf
+      patterns:
+        - provider: isbank
+          pattern: ".* - Kredi Kartı Hesap Özeti - .*\\.pdf?$"
+          importer: PdfIsbankImporter
+        - provider: generic
+          pattern: ".*\\.pdf$"
+          importer: GenericPdfImporter  
+  

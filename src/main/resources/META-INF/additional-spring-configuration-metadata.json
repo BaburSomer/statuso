@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "import.error-dir",
+    "type": "java.lang.String",
+    "description": "Files to import with an invalid content are moved here"
+  },
+  {
+    "name": "import.processed-dir",
+    "type": "java.lang.String",
+    "description": "Files, which can be imported successfully are moved here"
+  },
+  {
+    "name": "import.base-dir",
+    "type": "java.lang.String",
+    "description": "The base directory, where 'statuso' search files to import"
+  }
+]}
