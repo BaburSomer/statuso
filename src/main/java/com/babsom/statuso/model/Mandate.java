@@ -20,8 +20,8 @@ public class Mandate implements Serializable{
 	@Column(name = "oid")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column(name = "name")
+	@Column(name = "name", nullable = false, length = 30, unique = true)
 	private String name;
-	@Column(name = "description")
+	@Column(name = "description", nullable = true)
 	private String descr;
 }

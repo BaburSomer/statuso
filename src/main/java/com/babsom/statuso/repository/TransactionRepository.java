@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 import com.babsom.statuso.model.Transaction;
 
 @Service
-public interface AccountMovementRepository extends CrudRepository<Transaction, Long>  {
-
+public interface TransactionRepository extends CrudRepository<Transaction, Long> {
+	
 }

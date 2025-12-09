@@ -15,8 +15,9 @@ import lombok.ToString;
 @ToString
 @EqualsAndHashCode(callSuper = false)
 @Entity
-@Table(name = "rules")
+@Table(name = "classifications")
 public class TransactionClassificationRule extends BaseEntity {
+
 	private static final long serialVersionUID = 8862820224402729531L;
 
 	@Column(name = "name")
@@ -27,6 +28,6 @@ public class TransactionClassificationRule extends BaseEntity {
 	private String field;
 	@Column(name = "rule")
 	private String rule;
-	@Column(name = "transactionType")
+	@Column(name = "type")
 	private String transactionType;
 }

@@ -13,5 +13,20 @@
     "name": "import.base-dir",
     "type": "java.lang.String",
     "description": "The base directory, where 'statuso' search files to import"
+  },
+  {
+    "name": "exchange.api.base-url",
+    "type": "java.lang.String",
+    "description": "Base URL of the web service for retrieving historical exchange rates data"
+  },
+  {
+    "name": "exchange.api.key",
+    "type": "java.lang.String",
+    "description": "API key of the web service for retrieving historical exchange rates data"
+  },
+  {
+    "name": "spring.caffeine.spec",
+    "type": "java.lang.String",
+    "description": "additional data for configuring caffeine, e.g. maximumSize=500, expireAfterWrite=never"
   }
 ]}

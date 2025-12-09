@@ -19,13 +19,13 @@ public class MainImporterFactory {
 	}
 
 	public FileImporter createImporter(Path file) {
-		String fileName = file.getFileName().toString().toLowerCase();
-		if (fileName.endsWith(".xls") || fileName.endsWith(".xlsx")) {
+		if (excelFactory.supports(file)) {
 			return excelFactory.createImporter(file);
-		} else if (fileName.endsWith(".pdf")) {
-			return pdfFactory.createImporter(file);
-		} else {
-			throw new IllegalArgumentException("Unsupported file type: " + fileName);
 		}
+
+		if (pdfFactory.supports(file)) {
+			return pdfFactory.createImporter(file);
+		}
+		throw new IllegalArgumentException("Unsupported file type: " + file.getFileName());
 	}
 }

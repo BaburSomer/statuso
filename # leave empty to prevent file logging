@@ -1,0 +1,568 @@
+2025-11-25T14:30:54.181+03:00  INFO 25968 --- [statuso] [restartedMain] com.babsom.statuso.StatusoApplication    : Starting StatusoApplication using Java 21.0.7 with PID 25968 (C:\dev\st-workspace\statuso\target\classes started by w10 in C:\dev\st-workspace\statuso)
+2025-11-25T14:30:54.196+03:00  INFO 25968 --- [statuso] [restartedMain] com.babsom.statuso.StatusoApplication    : The following 1 profile is active: "springdatajpa"
+2025-11-25T14:31:01.632+03:00  WARN 25968 --- [statuso] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-25T14:31:15.663+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : 👀 Watching directory: C:\Users\w10\rawData
+2025-11-25T14:31:15.686+03:00  WARN 25968 --- [statuso] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T14:31:16.194+03:00  INFO 25968 --- [statuso] [restartedMain] com.babsom.statuso.StatusoApplication    : Started StatusoApplication in 23.444 seconds (process running for 31.684)
+2025-11-25T14:31:34.832+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import Hesap Hareketleri.xlsx: No Excel importer matches file: Hesap Hareketleri.xlsx
+
+2025-11-25T14:31:34.838+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File Hesap Hareketleri.xlsx moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:35.348+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521246068_20251002_16103770_HesapOzeti.xls: No Excel importer matches file: 10521246068_20251002_16103770_HesapOzeti.xls
+
+2025-11-25T14:31:35.360+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521246068_20251002_16103770_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:35.866+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521246068_20251002_16111143_HesapOzeti.xls: No Excel importer matches file: 10521246068_20251002_16111143_HesapOzeti.xls
+
+2025-11-25T14:31:35.872+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521246068_20251002_16111143_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:36.381+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521246068_20251002_16115004_HesapOzeti.xls: No Excel importer matches file: 10521246068_20251002_16115004_HesapOzeti.xls
+
+2025-11-25T14:31:36.385+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521246068_20251002_16115004_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:36.891+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521246068_20251002_16124482_HesapOzeti.xls: No Excel importer matches file: 10521246068_20251002_16124482_HesapOzeti.xls
+
+2025-11-25T14:31:36.894+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521246068_20251002_16124482_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:37.399+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521246068_20251002_16131321_HesapOzeti.xls: No Excel importer matches file: 10521246068_20251002_16131321_HesapOzeti.xls
+
+2025-11-25T14:31:37.401+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521246068_20251002_16131321_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:37.904+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521250999_20251008_15561731_HesapOzeti.xls: No Excel importer matches file: 10521250999_20251008_15561731_HesapOzeti.xls
+
+2025-11-25T14:31:37.905+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521250999_20251008_15561731_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:38.408+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 10521250999_20251008_15565450_HesapOzeti.xls: No Excel importer matches file: 10521250999_20251008_15565450_HesapOzeti.xls
+
+2025-11-25T14:31:38.411+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 10521250999_20251008_15565450_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:38.913+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 11490382420_20251002_16065261_HesapOzeti.xls: No Excel importer matches file: 11490382420_20251002_16065261_HesapOzeti.xls
+
+2025-11-25T14:31:38.915+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 11490382420_20251002_16065261_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:39.417+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 11490382420_20251002_16073490_HesapOzeti.xls: No Excel importer matches file: 11490382420_20251002_16073490_HesapOzeti.xls
+
+2025-11-25T14:31:39.418+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 11490382420_20251002_16073490_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:39.922+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 11490382420_20251002_16081924_HesapOzeti.xls: No Excel importer matches file: 11490382420_20251002_16081924_HesapOzeti.xls
+
+2025-11-25T14:31:39.923+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 11490382420_20251002_16081924_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:40.427+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 11490382420_20251002_16085379_HesapOzeti.xls: No Excel importer matches file: 11490382420_20251002_16085379_HesapOzeti.xls
+
+2025-11-25T14:31:40.428+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 11490382420_20251002_16085379_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:31:40.930+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import 11490382420_20251002_16094327_HesapOzeti.xls: No Excel importer matches file: 11490382420_20251002_16094327_HesapOzeti.xls
+
+2025-11-25T14:31:40.931+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File 11490382420_20251002_16094327_HesapOzeti.xls moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:33:54.287+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202510).pdf
+2025-11-25T14:33:55.527+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.529+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.531+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.532+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:33:55.773+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 36 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202510).pdf with 0 errors.
+2025-11-25T14:33:55.775+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 35 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202510).pdf
+
+2025-11-25T14:33:57.923+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202510).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/9/26
+
+2025-11-25T14:33:57.928+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202510).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:33:58.429+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202301).pdf
+2025-11-25T14:33:58.594+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.594+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.594+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.595+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.595+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.595+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:33:58.641+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 37 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202301).pdf with 0 errors.
+2025-11-25T14:33:58.642+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 32 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202301).pdf
+
+2025-11-25T14:33:58.729+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202301).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2022/12/26
+
+2025-11-25T14:33:58.733+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202301).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:33:59.233+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202302).pdf
+2025-11-25T14:33:59.380+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.381+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.381+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.381+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.381+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.381+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:33:59.408+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 54 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202302).pdf with 0 errors.
+2025-11-25T14:33:59.408+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 51 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202302).pdf
+
+2025-11-25T14:33:59.491+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202302).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/1/25
+
+2025-11-25T14:33:59.494+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202302).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:33:59.996+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202303).pdf
+2025-11-25T14:34:00.220+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.221+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.221+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.221+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.221+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.221+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:00.239+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 25 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202303).pdf with 0 errors.
+2025-11-25T14:34:00.239+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 25 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202303).pdf
+
+2025-11-25T14:34:00.331+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202303).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/2/26
+
+2025-11-25T14:34:00.335+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202303).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:00.837+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202304).pdf
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.020+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.038+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 41 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202304).pdf with 0 errors.
+2025-11-25T14:34:01.038+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 41 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202304).pdf
+
+2025-11-25T14:34:01.119+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202304).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/3/25
+
+2025-11-25T14:34:01.121+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202304).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:01.622+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202305).pdf
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.742+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:01.772+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 41 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202305).pdf with 0 errors.
+2025-11-25T14:34:01.773+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 39 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202305).pdf
+
+2025-11-25T14:34:01.851+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202305).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/4/26
+
+2025-11-25T14:34:01.853+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202305).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:02.355+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202306).pdf
+2025-11-25T14:34:02.465+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.465+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.466+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.466+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.466+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.466+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:02.509+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 34 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202306).pdf with 0 errors.
+2025-11-25T14:34:02.509+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 34 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202306).pdf
+
+2025-11-25T14:34:02.586+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202306).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/5/27
+
+2025-11-25T14:34:02.588+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202306).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:03.089+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202307).pdf
+2025-11-25T14:34:03.208+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.209+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.209+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.209+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.209+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.209+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.250+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 79 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202307).pdf with 0 errors.
+2025-11-25T14:34:03.250+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 77 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202307).pdf
+
+2025-11-25T14:34:03.330+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202307).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/6/24
+
+2025-11-25T14:34:03.331+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202307).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:03.833+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202308).pdf
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.926+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:03.939+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 29 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202308).pdf with 0 errors.
+2025-11-25T14:34:03.939+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 28 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202308).pdf
+
+2025-11-25T14:34:04.020+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202308).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/7/28
+
+2025-11-25T14:34:04.022+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202308).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:04.523+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202309).pdf
+2025-11-25T14:34:04.618+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.618+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.618+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.618+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.618+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.619+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:04.642+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 52 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202309).pdf with 0 errors.
+2025-11-25T14:34:04.642+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 48 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202309).pdf
+
+2025-11-25T14:34:04.722+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202309).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/8/25
+
+2025-11-25T14:34:04.723+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202309).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:05.225+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202310).pdf
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.329+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:05.338+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 30 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202310).pdf with 0 errors.
+2025-11-25T14:34:05.338+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 30 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202310).pdf
+
+2025-11-25T14:34:05.422+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202310).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/9/23
+
+2025-11-25T14:34:05.424+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx4756 (202310).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:05.926+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202311).pdf
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.019+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.031+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 29 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202311).pdf with 0 errors.
+2025-11-25T14:34:06.031+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 29 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202311).pdf
+
+2025-11-25T14:34:06.112+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202311).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/11/17
+
+2025-11-25T14:34:06.114+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202311).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:06.615+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202312).pdf
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.711+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:06.719+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 31 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202312).pdf with 0 errors.
+2025-11-25T14:34:06.719+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 31 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202312).pdf
+
+2025-11-25T14:34:06.799+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202312).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/11/26
+
+2025-11-25T14:34:06.801+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202312).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:07.303+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202401).pdf
+2025-11-25T14:34:07.407+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.408+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.408+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.408+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.408+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.408+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:07.418+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 38 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202401).pdf with 0 errors.
+2025-11-25T14:34:07.418+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 35 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202401).pdf
+
+2025-11-25T14:34:07.497+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202401).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2023/12/26
+
+2025-11-25T14:34:07.498+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202401).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:07.999+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202402).pdf
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.090+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.097+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 41 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202402).pdf with 0 errors.
+2025-11-25T14:34:08.098+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 41 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202402).pdf
+
+2025-11-25T14:34:08.177+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202402).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/1/25
+
+2025-11-25T14:34:08.178+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202402).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:08.679+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202403).pdf
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.781+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:08.787+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 19 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202403).pdf with 0 errors.
+2025-11-25T14:34:08.787+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 19 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202403).pdf
+
+2025-11-25T14:34:08.866+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202403).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/2/27
+
+2025-11-25T14:34:08.867+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202403).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:09.369+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202404).pdf
+2025-11-25T14:34:09.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.530+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.531+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.531+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:09.562+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 56 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202404).pdf with 0 errors.
+2025-11-25T14:34:09.562+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 56 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202404).pdf
+
+2025-11-25T14:34:09.645+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202404).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/3/28
+
+2025-11-25T14:34:09.647+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202404).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:10.148+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202405).pdf
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.326+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:10.337+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 39 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202405).pdf with 0 errors.
+2025-11-25T14:34:10.337+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 39 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202405).pdf
+
+2025-11-25T14:34:10.421+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202405).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/4/26
+
+2025-11-25T14:34:10.424+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202405).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:10.925+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202407).pdf
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.088+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.099+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 42 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202407).pdf with 0 errors.
+2025-11-25T14:34:11.099+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 41 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202407).pdf
+
+2025-11-25T14:34:11.183+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202407).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/6/25
+
+2025-11-25T14:34:11.187+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202407).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:11.688+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202408).pdf
+2025-11-25T14:34:11.859+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.859+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.859+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.859+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.859+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.860+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:11.865+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 25 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202408).pdf with 0 errors.
+2025-11-25T14:34:11.866+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 24 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202408).pdf
+
+2025-11-25T14:34:11.952+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202408).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/7/26
+
+2025-11-25T14:34:11.954+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202408).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:12.457+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202409).pdf
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.577+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:12.586+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 38 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202409).pdf with 0 errors.
+2025-11-25T14:34:12.586+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 37 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202409).pdf
+
+2025-11-25T14:34:12.668+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202409).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/8/25
+
+2025-11-25T14:34:12.669+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202409).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:13.171+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202410).pdf
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.290+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:13.317+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 44 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202410).pdf with 0 errors.
+2025-11-25T14:34:13.317+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 41 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202410).pdf
+
+2025-11-25T14:34:13.502+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202410).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/9/27
+
+2025-11-25T14:34:13.505+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202410).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:14.006+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202411).pdf
+2025-11-25T14:34:14.056+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+34 (34) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+27 (27) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+31 (31) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:14.057+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:14.071+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 38 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202411).pdf with 0 errors.
+2025-11-25T14:34:14.071+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 38 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202411).pdf
+
+2025-11-25T14:34:14.152+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202411).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/10/28
+
+2025-11-25T14:34:14.153+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202411).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:14.655+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202412).pdf
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.736+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:14.750+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 49 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202412).pdf with 0 errors.
+2025-11-25T14:34:14.750+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 27 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202412).pdf
+
+2025-11-25T14:34:14.828+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202412).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/11/28
+
+2025-11-25T14:34:14.829+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202412).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:15.331+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202501).pdf
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:15.363+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+22 (22) in font AllAndNone2
+2025-11-25T14:34:15.369+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 33 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202501).pdf with 0 errors.
+2025-11-25T14:34:15.369+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 22 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202501).pdf
+
+2025-11-25T14:34:15.453+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202501).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2024/12/28
+
+2025-11-25T14:34:15.455+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202501).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:15.957+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202502).pdf
+2025-11-25T14:34:15.973+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:15.973+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:15.973+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:15.974+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+19 (19) in font AllAndNone2
+2025-11-25T14:34:15.997+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 39 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202502).pdf with 0 errors.
+2025-11-25T14:34:15.997+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 36 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202502).pdf
+
+2025-11-25T14:34:16.075+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202502).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/1/25
+
+2025-11-25T14:34:16.077+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202502).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:16.578+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202503).pdf
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+6 (6) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:16.596+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:16.621+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 58 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202503).pdf with 0 errors.
+2025-11-25T14:34:16.621+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 56 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202503).pdf
+
+2025-11-25T14:34:16.701+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202503).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/2/28
+
+2025-11-25T14:34:16.703+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202503).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:17.204+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202504).pdf
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:17.227+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+13 (13) in font AllAndNone2
+2025-11-25T14:34:17.260+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 55 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202504).pdf with 0 errors.
+2025-11-25T14:34:17.261+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 49 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202504).pdf
+
+2025-11-25T14:34:17.337+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202504).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/3/27
+
+2025-11-25T14:34:17.339+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202504).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:17.839+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202505).pdf
+2025-11-25T14:34:17.949+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.950+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.950+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.950+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.950+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.950+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:17.961+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 39 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202505).pdf with 0 errors.
+2025-11-25T14:34:17.961+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 38 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202505).pdf
+
+2025-11-25T14:34:18.040+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202505).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/4/25
+
+2025-11-25T14:34:18.042+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202505).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:18.543+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202506).pdf
+2025-11-25T14:34:18.666+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.667+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.667+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.667+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.667+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.667+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:18.699+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 83 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202506).pdf with 0 errors.
+2025-11-25T14:34:18.699+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 70 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202506).pdf
+
+2025-11-25T14:34:18.780+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202506).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/5/26
+
+2025-11-25T14:34:18.782+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202506).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:19.284+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202507).pdf
+2025-11-25T14:34:19.301+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+10 (10) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:19.302+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:19.325+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 55 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202507).pdf with 0 errors.
+2025-11-25T14:34:19.325+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 49 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202507).pdf
+
+2025-11-25T14:34:19.508+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202507).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/6/25
+
+2025-11-25T14:34:19.509+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202507).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:20.012+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202508).pdf
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00AB (138) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00A6 (142) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0063 (131) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0068 (136) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC0062 (130) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.110+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDSimpleFont     : No Unicode mapping for UNIC00BB (139) in font C0HVRL0T1X010260
+2025-11-25T14:34:20.121+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 54 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202508).pdf with 0 errors.
+2025-11-25T14:34:20.122+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 48 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202508).pdf
+
+2025-11-25T14:34:20.202+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202508).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/7/28
+
+2025-11-25T14:34:20.205+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202508).pdf moved to C:/Users/w10/rawData/error
+
+2025-11-25T14:34:20.705+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 📊 Parsing İŞBank KrediKart: C:\Users\w10\rawData\MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202509).pdf
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+33 (33) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+1 (1) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+12 (12) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+4 (4) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+7 (7) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+5 (5) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+11 (11) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+2 (2) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+15 (15) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+14 (14) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+16 (16) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+18 (18) in font AllAndNone2
+2025-11-25T14:34:20.719+03:00  WARN 25968 --- [statuso] [pool-2-thread-1] o.a.pdfbox.pdmodel.font.PDType0Font      : No Unicode mapping for CID+21 (21) in font AllAndNone2
+2025-11-25T14:34:20.740+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.b.statuso.importer.impl.PdfImporter    : 💬 52 transactions proccessed in MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202509).pdf with 0 errors.
+2025-11-25T14:34:20.740+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ Parsed 49 transactions from MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202509).pdf
+
+2025-11-25T14:34:20.817+03:00 ERROR 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ❌ Failed to import MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202509).pdf: 403 Forbidden from GET https://v6.exchangerate-api.com/v6/8c4135691a4c0dce473ca37b/history/TRY/2025/8/28
+
+2025-11-25T14:34:20.818+03:00  INFO 25968 --- [statuso] [pool-2-thread-1] c.babsom.statuso.service.ImportService   : ✅ File MELEK ELİF SOMER - Kredi Kartı Hesap Özeti - 4543xxxxxxxx6359 (202509).pdf moved to C:/Users/w10/rawData/error
+

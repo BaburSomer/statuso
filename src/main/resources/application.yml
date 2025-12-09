@@ -1,7 +1,7 @@
 import:
   base-dir: C:/Users/w10/rawData
-  processed-dir: processed
-  error-dir: error
+  processed-dir: C:/Users/w10/rawData/processed
+  error-dir: C:/Users/w10/rawData/error
   
   factories:
     - type: excel

@@ -22,16 +22,20 @@ import com.babsom.statuso.importer.config.ImporterProperties;
 import com.babsom.statuso.model.Transaction;
 
 import jakarta.annotation.PostConstruct;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class ImportService {
 
 	private final MainImporterFactory importFactory;
 	private final ImporterProperties  props;
+	private final TransactionService  transactionService;
 
-	public ImportService(MainImporterFactory importFactory, ImporterProperties props) {
-		this.importFactory = importFactory;
-		this.props         = props;
+	public ImportService(MainImporterFactory importFactory, ImporterProperties props, TransactionService transactionService) {
+		this.importFactory      = importFactory;
+		this.props              = props;
+		this.transactionService = transactionService;
 	}
 
 	/** Run both existing file processing and watcher setup after startup */
@@ -42,6 +46,13 @@ public class ImportService {
 	}
 
 	private void processExistingFiles() {
+		log.debug("📢 >>> - processExistingFiles");
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			log.warn("⚠️ Could not start sleeping thread: " + e.getMessage());
+		}
+		
 		Path importDir = Paths.get(props.getBaseDir());
 		if (!Files.exists(importDir))
 			return;
@@ -53,8 +64,9 @@ public class ImportService {
 				}
 			}
 		} catch (IOException e) {
-			System.err.println("⚠️ Could not process existing files: " + e.getMessage());
+			log.error("❌ Could not process existing files: " + e.getMessage());
 		}
+		log.debug("📢 <<< - processExistingFiles");
 	}
 
 	private void startDirectoryWatcher() {
@@ -66,7 +78,7 @@ public class ImportService {
 
 				WatchService watcher = FileSystems.getDefault().newWatchService();
 				dir.register(watcher, StandardWatchEventKinds.ENTRY_CREATE);
-				System.out.println("👀 Watching directory: " + dir);
+				log.info("👀 Watching directory: " + dir);
 
 				while (true) {
 					WatchKey key = watcher.take();
@@ -82,22 +94,34 @@ public class ImportService {
 					key.reset();
 				}
 			} catch (Exception e) {
-				System.err.println("❌ Directory watcher error: " + e.getMessage());
+				log.error("❌ Directory watcher error: " + e.getMessage());
 			}
 		});
 	}
 
 	private void processFile(Path file) {
-		System.out.println("📥 Processing: " + file.getFileName());
+		log.debug("📢 >>> - processFile");
+		log.debug("📥 Processing: " + file.getFileName());
 		try {
 			FileImporter      importer     = importFactory.createImporter(file);
 			List<Transaction> transactions = importer.importData(file);
-			System.out.printf("✅ Imported %d transactions from %s%n", transactions.size(), file.getFileName());
+			log.info(String.format("✅ Parsed %d transactions from %s%n", transactions.size(), file.getFileName()));
+			saveTransactions(transactions);
 			moveFile(file, props.getProcessedDir());
 		} catch (Exception ex) {
-			System.err.printf("❌ Failed to import %s: %s%n", file.getFileName(), ex.getMessage());
+			log.error(String.format("❌ Failed to import %s: %s%n", file.getFileName(), ex.getMessage()));
+			ex.printStackTrace();
 			moveFile(file, props.getErrorDir());
 		}
+		log.debug("📢 <<< - processFile");
+	}
+
+	private void saveTransactions(List<Transaction> transactions) {
+		log.debug("📢 >>> - saveTransactions");
+		for (Transaction transaction : transactions) {
+			transactionService.save(transaction);
+		}
+		log.debug("<<< - saveTransactions");
 	}
 
 	private void moveFile(Path file, String targetDir) {
@@ -106,8 +130,9 @@ public class ImportService {
 			if (!Files.exists(targetPath))
 				Files.createDirectories(targetPath);
 			Files.move(file, targetPath.resolve(file.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+			log.info(String.format("✅ File %s moved to %s%n", file.getFileName(), targetDir));
 		} catch (IOException ex) {
-			System.err.println("⚠️ Could not move file: " + ex.getMessage());
+			log.error("❌ Could not move file: " + ex.getMessage());
 		}
 	}
 }
